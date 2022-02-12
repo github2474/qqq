@@ -1,0 +1,70 @@
+# 2022年2月12日 #
+
+## 一、今日计划  ##
+- ~~学习java的String类的方法~~
+- ~~完成String类方法的练习~~
+
+## 二、今日过程 ##
+
+1. 早上六点半左右打开电脑，收拾完昨天晚上弄乱的旧书，就吃早饭了。
+---
+2. 八点处理好 git 的问题，就直接上手了 String API的学习。
+####比较
+ - equals(Object obj) : 字符串内容比较 (常量字符放前面)
+ - 注意：常量字符放后面可能会产生空指针异常
+ 
+####拼接查找
+ - concat(String str) : 拼接
+ - Length（）：长度
+ - charAt(int index):获取指定索引位置的单个字符，（索引从零开始）
+ - indexOf(String str):查找参数字符串在本字符中首次出现的位置，如果没有返回-1
+
+####截取
+ - substring(int index):截取从参数位置一直到字符串末尾，返回新的字符串
+ - substring(int begin ,int end) :左闭右开
+
+####转换
+ - toCharArray（）： 将当前字符拆分成为字符数组作为返回值
+ - getBytes(): 获取当前字符串底层的字节数组
+ - replace（CharSequence oldString , CharSequence newString)：将所有老的字符串替换成新的字符串
+
+####分割
+ - split(String regex): 按照参数规则，将字符串切分成为若干部分 
+ - 注意：split 方法的参数是一个正则表达式 ，用"." 需要转义"\\."
+---
+ 
+3. 下午睡觉，晚上做练习，但是发现自己忘记了之前学过的方法定义，类型转换
+
+#### int 转换为 String 
+    1, 空用字符串拼接  
+    2, String.valueof(i) 
+    3, Integer.toString(i)
+    4, Integer j = i  ，用  j.toSrtring()
+#### 方法
+    方法使用：
+    接收对象 = 方法名（调用对象）；
+    方法：
+    public static 返回类型 方法名(接收对象){
+    return 返回类型
+    }
+
+#### 对每一个字符检查，需要用到toCharArray()
+    char[] charArray = str.toCharArray();
+
+####再次使用Scanner 
+    //  Scanner的三个步骤：导包创建使用
+    Scanner sc = new Scanner(System.in);
+    System.out.println("请输入一个字符串");
+    String str = sc.next();
+
+##  三、今日思考、总结、反思
+ 1. 关于图
+  - 在堆里有一个字符串常量池，用来存放字符串的地址，一个 " "就会在字符常量池创建一个对象。
+ 2. 关于异常
+ - 在变量字符串为 null 且在常量字符串之前时，进行 equals 时，会出现NullPointerException。
+ - 在 charAt的时候, 会出现StringIndexOutOfBoundsException;
+ - 而在 indexOf 的时候， 返回 -1；
+
+## 四、明日计划
+ 1. 搞定 static 静态
+ 2. 学习arrays工具，Math工具

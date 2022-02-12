@@ -31,5 +31,6 @@ public class Demo04StringGet {
         System.out.println("查看字母l首次出现位置: "+str3.indexOf('l'));
         System.out.println("查看字符串ll首次出现位置: "+str3.indexOf("ll"));
 
+
     }
 }
