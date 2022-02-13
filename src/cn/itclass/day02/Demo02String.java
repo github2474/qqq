@@ -1,4 +1,4 @@
-package cn.itclass.day02.demo01;
+package cn.itclass.day02;
 /*
 *字符串常量池，程序当中直接写上的双引号字符串，就在字符串常量池中。
 *

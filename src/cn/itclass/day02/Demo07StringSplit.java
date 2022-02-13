@@ -1,4 +1,4 @@
-package cn.itclass.day02.demo01;
+package cn.itclass.day02;
 /*
 * 分割字符的方法：
 * public String[] split(String regex): 按照参数规则，将字符串切分成为若干部分

@@ -1,4 +1,4 @@
-package cn.itclass.day02.demo01;
+package cn.itclass.day02;
 
 import java.nio.charset.StandardCharsets;
 

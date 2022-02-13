@@ -1,4 +1,4 @@
-package cn.itclass.day02.demo01;
+package cn.itclass.day02;
 /*
  * 字符串的特点：
  * 1、字符串的内容永不可变

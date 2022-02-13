@@ -1,4 +1,4 @@
-package cn.itclass.day02.demo01;
+package cn.itclass.day02;
 /*
 *"="是进行对象的地址比较，字符串内容比较，可以使用两个方法
 *

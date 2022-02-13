@@ -1,4 +1,4 @@
-package cn.itclass.day02.demo01;
+package cn.itclass.day02;
 /*
 * String 与获取相关的常用方法有：
 *
