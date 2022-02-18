@@ -1,4 +1,4 @@
-package cn.itclass.day03.Demo01;
+package cn.itclass.day03.demo01;
 /*
 * 一个成员变量使用了static ，那么这个变量不在属于自己，而属于所在的类。多个对象共享一份数据
 *

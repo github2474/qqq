@@ -1,4 +1,4 @@
-package cn.itclass.day03.Demo01;
+package cn.itclass.day03.demo01;
 
 public class Demo03StaticStudent {
 
@@ -15,6 +15,9 @@ public class Demo03StaticStudent {
         System.out.println("two的姓名是：" + two.getName());
         System.out.println("two的年龄是：" + two.getAge());
         System.out.println("two的教室是：" + Student.room);
+
+
+
     }
 
 }

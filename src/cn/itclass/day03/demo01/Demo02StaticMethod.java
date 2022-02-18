@@ -1,4 +1,4 @@
-package cn.itclass.day03.Demo01;
+package cn.itclass.day03.demo01;
 /*
 *
 * 一旦使用static修饰成员方法，就成为静态方法，静态方法不属于对象，而属于类

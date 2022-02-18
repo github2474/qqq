@@ -1,4 +1,4 @@
-package cn.itclass.day03.Demo01;
+package cn.itclass.day03.demo01;
 
 public class Student {
     private int id ; //学号
